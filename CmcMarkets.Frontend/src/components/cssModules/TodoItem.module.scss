@@ -1,0 +1,36 @@
+.container {
+  width: 80%;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.completedTask {
+  background-color: darkgray;
+}
+
+.taskItem {
+  display: flex;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task {
+  margin-left: 1em;
+  padding: 4px;
+}
+
+.removeButton {
+  margin-left: auto;
+}
+
+.button {
+  padding: 4px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}

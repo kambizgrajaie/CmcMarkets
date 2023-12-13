@@ -1,0 +1,14 @@
+CmcMarkets.Backend/.vs/
+CmcMarkets.Backend/CmcMarkets.Backend.Core/obj/
+CmcMarkets.Backend/CmcMarkets.Backend.Persistence/obj/
+CmcMarkets.Backend/CmcMarkets.Backend.Service/obj/
+CmcMarkets.Backend/CmcMarkets.Backend.Tests.TestHarness/obj/
+CmcMarkets.Backend/CmcMarkets.Backend.WebApi/obj/
+CmcMarkets.Backend/CmcMarkets.Backend.Test.UnitTests/obj/
+CmcMarkets.Backend/CmcMarkets.Backend.Core/bin/
+CmcMarkets.Backend/CmcMarkets.Backend.Persistence/bin/
+CmcMarkets.Backend/CmcMarkets.Backend.Test.UnitTests/bin/
+CmcMarkets.Backend/CmcMarkets.Backend.Tests.TestHarness/bin/
+CmcMarkets.Backend/CmcMarkets.Backend.WebApi/bin/
+CmcMarkets.Backend/CmcMarkets.Backend.Service/bin/
+CmcMarkets.Frontend/cmcmarkets-frontend-todo/.vscode/launch.json
