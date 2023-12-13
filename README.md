@@ -119,7 +119,7 @@ This project is a simple ToDo app built using React. It allows users to add, mar
 ## How to Run
 
 1. Clone the repository.
-2. Change to from CmcMarkets.Frontend folder
+2. Change to `CmcMarkets.Frontend` folder
 3. Run `npm install` to install dependencies.
 4. Run `npm start` to start the development server.
 5. Open your browser and navigate to `http://localhost:3000`.
