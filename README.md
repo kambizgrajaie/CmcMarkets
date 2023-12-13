@@ -42,7 +42,7 @@ This project is a showcase .NET Core backend application that provides API endpo
 1- Clone the repository.
 (and change directory to CmcMarkets.Backend folder)
 
-#### Database
+#### Database EF migration
 
 2- Set up the database connection in `appsettings.json`
 
@@ -52,7 +52,7 @@ This project is a showcase .NET Core backend application that provides API endpo
 dotnet ef database update
 ```
 
-#### Test Harness
+#### Seeding some users and user tasks through `Test Harness`
 
 4- Run the .NET Core TestHarness:
 (from CmcMarkets.Backend folder)
@@ -74,7 +74,7 @@ dotnet run --project ./CmcMarkets.Backend.Tests.TestHarness/CmcMarkets.Backend.T
 
 10- Stop Test Harness application
 
-#### Main Application:
+#### Main Application
 
 11- Run the .NET Core WebApi: (from CmcMarkets.Backend folder)
 
