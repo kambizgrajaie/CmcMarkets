@@ -8,11 +8,11 @@ This project is a showcase .NET Core backend application that provides API endpo
 
 ## Design Choices
 
-- **Multi-layer Design:** This application separates concerns of each layer from WebApi to Service to Persistence. It injects concrete implementations of abstractions to higher components in the structure.
+- **Multi-layer Design:** This application separates concerns of each layer from WebApi to Service to Persistence(DAL). It injects concrete implementations of abstractions to higher components in the structure.
 
 - **Microsoft Identity:** Used this powerful library to manage users, passwords, profile data, roles, claims and tokens.
 
-- **Entity Framework:** EF allows to create a database from code, which enables a more agile and test-driven development workflow. Also integrated Microsoft Identity entities to the same database as the application entities are stored. SQL Server Express has been used for the database
+- **Entity Framework:** EF allows to create a database from code, which enables a more agile and test-driven development workflow. Also integrated Microsoft Identity entities to the same database as the application entities are stored. SQL Server Express has been used for the database.
 
 - **Repository Pattern:** Used Repository as an abstraction of the Data Access Layer. It hides details of how exactly the data is saved and retrieved from underlying data source. So it also enables us to easily test application with unit tests.
 
@@ -20,9 +20,9 @@ This project is a showcase .NET Core backend application that provides API endpo
 
 - **Test Harness:** It allows developers to seed the database with initial users, roles and some user tasks to start with. It can Login, Register user and admin.
 
-- **Unit Tests:** With testability in mind when designing classes, the entire application can be unit tested. However a coupld of them have been shoecased for this presentation.
+- **Unit Tests:** With testability in mind when designing classes, the entire application can be unit tested. A couple of them have been showcased for this presentation.
 
-- **Asynchronous Programming:** Demonstrated the use of asynchronous programming in API controllers, ensuring efficient handling of concurrent requests. Async/await is used in database operations to avoid blocking. All methods in the application are called asynchronously from Persistance to Service to WebApi layers.
+- **Asynchronous Programming:** Demonstrated the use of asynchronous programming ensuring efficient handling of concurrent requests. Async/await is used in database operations to avoid blocking. All methods in the application are called asynchronously from Persistance to Service to WebApi layers.
 
 - **Exception Handling:** Implemented robust exception handling to ensure the application gracefully handles common errors. Returns appropriate HTTP status codes and provides informative error messages to clients. In the api sample, it will return 404 status code if no result is found and returns 500 if an internal server error happens. Otherwise it will return a list of user tasks.
 
