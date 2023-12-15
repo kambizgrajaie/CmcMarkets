@@ -1,5 +1,5 @@
 ﻿using CmcMarkets.Backend.Core;
-using CmcMarkets.Backend.Persistence;
+using CmcMarkets.Backend.Persistence.DbContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

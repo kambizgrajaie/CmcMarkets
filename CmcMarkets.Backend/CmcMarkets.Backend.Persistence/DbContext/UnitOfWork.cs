@@ -2,7 +2,7 @@
 using CmcMarkets.Backend.Persistence.Repositories;
 using System.Threading.Tasks;
 
-namespace CmcMarkets.Backend.Persistence
+namespace CmcMarkets.Backend.Persistence.DbContext
 {
     public class UnitOfWork : IUnitOfWork
     {

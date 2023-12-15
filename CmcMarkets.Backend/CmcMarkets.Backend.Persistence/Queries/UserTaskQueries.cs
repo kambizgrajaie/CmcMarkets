@@ -1,5 +1,6 @@
 ﻿using CmcMarkets.Backend.Core.Entities;
 using CmcMarkets.Backend.Core.Enums;
+using CmcMarkets.Backend.Persistence.DbContext;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

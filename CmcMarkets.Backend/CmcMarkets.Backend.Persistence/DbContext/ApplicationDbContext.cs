@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CmcMarkets.Backend.Persistence
+namespace CmcMarkets.Backend.Persistence.DbContext
 {
     public class ApplicationDbContext : IdentityDbContext, IDataContext
     {

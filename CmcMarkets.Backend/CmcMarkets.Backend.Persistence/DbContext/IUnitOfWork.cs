@@ -3,7 +3,7 @@ using CmcMarkets.Backend.Persistence.Repositories;
 using System;
 using System.Threading.Tasks;
 
-namespace CmcMarkets.Backend.Persistence
+namespace CmcMarkets.Backend.Persistence.DbContext
 {
     public interface IUnitOfWork : IDisposable
     {

@@ -1,6 +1,6 @@
 ﻿using CmcMarkets.Backend.Core.Entities;
 using CmcMarkets.Backend.Core.Enums;
-using CmcMarkets.Backend.Persistence;
+using CmcMarkets.Backend.Persistence.DbContext;
 using CmcMarkets.Backend.Persistence.Queries;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
