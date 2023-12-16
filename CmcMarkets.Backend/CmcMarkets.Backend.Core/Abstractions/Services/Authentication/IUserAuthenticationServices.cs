@@ -1,7 +1,7 @@
 ﻿using CmcMarkets.Backend.Core.Model;
 using System.Threading.Tasks;
 
-namespace CmcMarkets.Backend.Service.Authentication
+namespace CmcMarkets.Backend.Core.Abstractions.Services.Authentication
 {
     public interface IUserAuthenticationServices
     {

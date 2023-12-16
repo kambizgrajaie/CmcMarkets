@@ -4,12 +4,12 @@ using Moq;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using CmcMarkets.Backend.Persistence.Queries;
 using CmcMarkets.Backend.Core.Entities;
-using CmcMarkets.Backend.Service.Dto;
+using CmcMarkets.Backend.Core.Dto;
 using CmcMarkets.Backend.Core.Enums;
 using CmcMarkets.Backend.Service.Tasks;
 using Microsoft.Extensions.Logging;
+using CmcMarkets.Backend.Core.Abstractions.Persistence.Queries;
 
 namespace CmcMarkets.Backend.Test.UnitTests.Service
 {

@@ -1,4 +1,5 @@
-﻿using CmcMarkets.Backend.Persistence.DbContext;
+﻿using CmcMarkets.Backend.Core.Abstractions.Persistence.DbContext;
+using CmcMarkets.Backend.Core.Abstractions.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;

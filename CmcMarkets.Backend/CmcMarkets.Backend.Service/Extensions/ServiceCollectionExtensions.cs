@@ -1,4 +1,5 @@
-﻿using CmcMarkets.Backend.Service.Tasks;
+﻿using CmcMarkets.Backend.Core.Abstractions.Services.Tasks;
+using CmcMarkets.Backend.Service.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CmcMarkets.Backend.Service.Extensions

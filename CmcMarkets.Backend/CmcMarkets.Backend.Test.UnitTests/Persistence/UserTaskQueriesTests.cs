@@ -2,10 +2,8 @@
 using CmcMarkets.Backend.Core.Enums;
 using CmcMarkets.Backend.Persistence.DbContext;
 using CmcMarkets.Backend.Persistence.Queries;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;

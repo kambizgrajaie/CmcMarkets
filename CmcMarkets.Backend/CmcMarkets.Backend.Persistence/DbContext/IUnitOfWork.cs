@@ -1,5 +1,5 @@
-﻿using CmcMarkets.Backend.Core.Entities;
-using CmcMarkets.Backend.Persistence.Repositories;
+﻿using CmcMarkets.Backend.Core.Abstractions.Persistence.Repositories;
+using CmcMarkets.Backend.Core.Entities;
 using System;
 using System.Threading.Tasks;
 

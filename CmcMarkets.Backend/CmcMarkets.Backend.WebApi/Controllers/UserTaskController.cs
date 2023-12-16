@@ -1,6 +1,6 @@
 ﻿using CmcMarkets.Backend.Core;
+using CmcMarkets.Backend.Core.Abstractions.Services.Tasks;
 using CmcMarkets.Backend.Core.Exceptions;
-using CmcMarkets.Backend.Service.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

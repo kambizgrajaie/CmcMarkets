@@ -1,6 +1,6 @@
-﻿using CmcMarkets.Backend.Core.Exceptions;
+﻿using CmcMarkets.Backend.Core.Abstractions.Services.Authentication;
+using CmcMarkets.Backend.Core.Exceptions;
 using CmcMarkets.Backend.Core.Model;
-using CmcMarkets.Backend.Service.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

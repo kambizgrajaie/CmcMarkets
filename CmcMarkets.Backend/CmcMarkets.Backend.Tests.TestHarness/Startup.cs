@@ -1,4 +1,5 @@
 using CmcMarkets.Backend.Core;
+using CmcMarkets.Backend.Core.Abstractions.Services.Authentication;
 using CmcMarkets.Backend.Persistence.DbContext;
 using CmcMarkets.Backend.Service.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CmcMarkets.Backend.Persistence.Queries
+namespace CmcMarkets.Backend.Core.Abstractions.Persistence.Queries
 {
     public interface IUserTaskQueries
     {

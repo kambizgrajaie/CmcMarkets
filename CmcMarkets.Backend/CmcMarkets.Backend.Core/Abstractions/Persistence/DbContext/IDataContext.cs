@@ -1,7 +1,7 @@
 ﻿using CmcMarkets.Backend.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CmcMarkets.Backend.Persistence.DbContext
+namespace CmcMarkets.Backend.Core.Abstractions.Persistence.DbContext
 {
     public interface IDataContext
     {

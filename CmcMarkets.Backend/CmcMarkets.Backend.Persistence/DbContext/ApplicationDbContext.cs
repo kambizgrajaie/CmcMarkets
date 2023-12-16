@@ -1,4 +1,5 @@
-﻿using CmcMarkets.Backend.Core.Entities;
+﻿using CmcMarkets.Backend.Core.Abstractions.Persistence.DbContext;
+using CmcMarkets.Backend.Core.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,15 +1,13 @@
 ﻿using CmcMarkets.Backend.Core;
+using CmcMarkets.Backend.Core.Abstractions.Services.Authentication;
 using CmcMarkets.Backend.Core.Exceptions;
 using CmcMarkets.Backend.Core.Model;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Runtime.CompilerServices;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;

@@ -1,9 +1,9 @@
-﻿using CmcMarkets.Backend.Service.Dto;
+﻿using CmcMarkets.Backend.Core.Dto;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CmcMarkets.Backend.Service.Tasks
+namespace CmcMarkets.Backend.Core.Abstractions.Services.Tasks
 {
     public interface IUserTaskServices
     {

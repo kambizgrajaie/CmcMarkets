@@ -1,4 +1,5 @@
-﻿using CmcMarkets.Backend.Core.Entities;
+﻿using CmcMarkets.Backend.Core.Abstractions.Persistence.Queries;
+using CmcMarkets.Backend.Core.Entities;
 using CmcMarkets.Backend.Core.Enums;
 using CmcMarkets.Backend.Persistence.DbContext;
 using Microsoft.EntityFrameworkCore;
