@@ -25,6 +25,7 @@ This project is a showcase .NET Core backend application that provides API endpo
 - **Asynchronous Programming:** Demonstrated the use of asynchronous programming ensuring efficient handling of concurrent requests. Async/await is used in database operations to avoid blocking. All methods in the application are called asynchronously from Persistance to Service to WebApi layers.
 
 - **Exception Handling:** Implemented robust exception handling to ensure the application gracefully handles common errors. Returns appropriate HTTP status codes and provides informative error messages to clients. In the api sample, it will return 404 status code if no result is found and returns 500 if an internal server error happens. Otherwise it will return a list of user tasks.
+  To improve the exception handling, can also use .Net core's, exception handling middleware for a general approach and take advantage of code reuse and a central place for handling all types of application exceptions.
 
 ## Libraries Used
 
